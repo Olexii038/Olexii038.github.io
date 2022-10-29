@@ -13,11 +13,14 @@
 	<main class="stack-row">
 		<div class="stack-column stretch block_2-5">
 			<div class="stack-row div block_2-3">
-				<aside class="side padding left block_2">
-
-				</aside>
+				<aside class="side padding left block_2"></aside>
 				<article class="padding article block_3">
 					<div class="constructor">
+						<div class="EnterNums">
+							<input id="input1" type="text" name="lower_num" placeholder="Нижня межа"></input>
+							<input id="input2" type="text" name="upper_num" placeholder="Верхня межа"></input>
+						</div>
+						<button type="text" class="buttonNewNumber" id="newBordersBtn" onclick="setBorders()">Встановити нові межі</button>
 						<div class="generator" id="generator">Тут нічого нема</div>
 						<button type="text" class="buttonNewNumber" id="buttonNewNumber" onclick="generateNewPoint()">Знегерувати нову точку</button>
 					</div>

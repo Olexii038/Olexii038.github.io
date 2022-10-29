@@ -30,10 +30,20 @@ footer {
 }
 
 .constructor {
+	display: flex;
 	flex-direction: column;
+	justify-content: center;
 }
 
 .generator{
+	text-align: center;
+}
+
+.enterNums {
+	flex-direction: row;
+}
+
+.buttonNewNumber {
 	text-align: center;
 }
 
